@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import menuApp from "../public/assets/projects/Menu App.png";
+import reviewAppPhoto from "../public/assets/projects/client review app.png";
 import { BsArrowRightShort, BsArrowReturnLeft } from "react-icons/bs";
 
-const menu = () => {
+const reviewApp = () => {
   return (
     <div className=" w-full">
       <div className=" w-screen h-[30vh] lg:h-[40vh] relative">
@@ -14,10 +14,10 @@ const menu = () => {
           layout="fill"
           objectFit="cover"
           // object-position="center"
-          src={menuApp}
+          src={reviewAppPhoto}
         />
         <div className="absolute top-[70%] w-full max-w-7xl left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className=" py-2">Menu Application</h2>
+          <h2 className=" py-2">Review App</h2>
           <h3>HTML · CSS · JavaScript</h3>
         </div>
       </div>
@@ -29,12 +29,8 @@ const menu = () => {
           </p>
           <h2 className=" py-4">Overview</h2>
           <p className="pb-2">
-            The focus on this application was using JavaScript to dynamically
-            update/add/delete content from a menu. This would be necessary for a
-            e-commerce store or, in this case, the menu to a restaurant. Setting
-            up the framework for items using JSON and dynamically adding content
-            to a card holding a menu item. The top menu type buttons filter menu
-            items based on the type of meal.
+            This application could be implemented in a Review Section on a
+            website. It maps over JSON and uses the data to populate the card.
           </p>
           <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
           <button className=" px-8 py-2 mt-4">Code</button>
@@ -66,4 +62,4 @@ const menu = () => {
   );
 };
 
-export default menu;
+export default reviewApp;

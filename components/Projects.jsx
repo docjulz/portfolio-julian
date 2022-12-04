@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import weatherApp from "../public/assets/projects/Weather App.png";
+import weatherAppPhoto from "../public/assets/projects/Weather App.png";
 import menuApp from "../public/assets/projects/Menu App.png";
-import websiteOne from "../public/assets/projects/Website 1.png";
-import websiteTwo from "../public/assets/projects/Website 2.png";
-import reviewApp from "../public/assets/projects/client review app.png";
+import websitePhotoOne from "../public/assets/projects/Website 1.png";
+import websitePhotoTwo from "../public/assets/projects/Website 2.png";
+import reviewAppPhoto from "../public/assets/projects/client review app.png";
 import faqApp from "../public/assets/projects/FAQ App.png";
 import ProjectItem from "./ProjectItem";
 
@@ -21,7 +21,7 @@ const Projects = () => {
           {/* parent of component */}
           <ProjectItem
             title="Weather Application"
-            backgroundImg={weatherApp}
+            backgroundImg={weatherAppPhoto}
             skills="React · TailwindCSS · NextJS · Axios · API"
             projectUrl="/weather"
             alt="Weather Application"
@@ -35,30 +35,30 @@ const Projects = () => {
           />
           <ProjectItem
             title="Small Business Website Template"
-            backgroundImg={websiteOne}
+            backgroundImg={websitePhotoOne}
             skills="HTML · CSS · JavaScript"
-            projectUrl="/website-1"
+            projectUrl="/websiteOne"
             alt="Small business Website Template"
           />
           <ProjectItem
             title="Law Website Template"
-            backgroundImg={websiteTwo}
+            backgroundImg={websitePhotoTwo}
             skills="HTML · CSS · JavaScript"
-            projectUrl="/website-2"
+            projectUrl="/websiteTwo"
             alt="Law Website Template"
           />
           <ProjectItem
             title="Client Review App"
-            backgroundImg={reviewApp}
+            backgroundImg={reviewAppPhoto}
             skills="HTML · CSS · JavaScript"
-            projectUrl="/review-app"
+            projectUrl="/reviewApp"
             alt="Client Review App"
           />
           <ProjectItem
             title="FAQ App"
             backgroundImg={faqApp}
             skills="HTML · CSS · JavaScript"
-            projectUrl="/FAQ-app"
+            projectUrl="/FAQapp"
             alt="FAQ App"
           />
         </div>
