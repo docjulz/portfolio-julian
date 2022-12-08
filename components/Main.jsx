@@ -25,7 +25,7 @@ const Main = () => {
           </div>
           <h1>A Developer and Web Designer</h1>
           <p className=" py-4 text-gray-600 max-w-[70%] m-auto">
-            I am a Web Developer, Digital Engagement Manager and Content
+            I am a Web Developer, Digital Engagement Manager, and Content
             Designer with experience developing websites and web applications
             using multiple frameworks and programming languages.
             <span className="text-[#c2649a] text-[0.6rem] px-1">
@@ -37,31 +37,31 @@ const Main = () => {
               href="https://www.linkedin.com/in/julianemiller/"
               target="_blank"
             >
-              <div className=" rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a]">
+              <div className=" rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                 <AiOutlineLinkedin size="1.5rem" />
               </div>
             </a>
 
             <a href="https://github.com/docjulz" target="_blank">
-              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a]">
+              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                 <AiOutlineGithub size="1.5rem" />
               </div>
             </a>
 
             <a href="https://codepen.io/jmillerlbc" target="_blank">
-              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a]">
+              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                 <AiOutlineCodepen size="1.5rem" />
               </div>
             </a>
 
             <a href="https://www.figma.com/@julianmiller" target="_blank">
-              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a]">
+              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                 <FaFigma size="1.5rem" />
               </div>
             </a>
 
             <a href="mailto:julian.miller949@gmail.com" target="_blank">
-              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a]">
+              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                 <AiOutlineMail size="1.5rem" />
               </div>
             </a>
