@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div id="about" className=" w-full md:h-[60%] p-2 flex items-center">
-      <div className=" max-w-7xl m-auto md:grid grid-cols-4 gap-6">
+    <div id="about" className=" w-full md:h-[80%] p-2 flex items-center">
+      <div className=" max-w-7xl m-auto md:grid md:pt-28  grid-cols-4 gap-6">
         <div className="col-span-3">
           {/* Left Side */}
           <p className="uppercase text-xl tracking-widest text-[#2D92FA] ">

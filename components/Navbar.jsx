@@ -11,11 +11,33 @@ import {
 } from "react-icons/ai";
 import { FaFigma } from "react-icons/fa";
 import { RiKakaoTalkLine } from "react-icons/ri";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   //State
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#f0f8ff");
+  const [linkColor, setLinkColor] = useState("#0e2f44");
+  const router = useRouter();
+
+  useEffect(() => {
+    if (
+      router.asPath === "/weather" ||
+      router.asPath === "/weather" ||
+      router.asPath === "/menu" ||
+      router.asPath === "/websiteOne" ||
+      router.asPath === "/websiteTwo" ||
+      router.asPath === "/reviewApp" ||
+      router.asPath === "/FAQapp"
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#f8f8f8");
+    } else {
+      setNavBg("#f0f8ff");
+      setLinkColor("#0e2f44");
+    }
+  }, [router]);
 
   // Function to control Nav Menu on small devices
   const handleNav = () => {
@@ -36,6 +58,7 @@ const Navbar = () => {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-lg z-[999]"
@@ -53,7 +76,7 @@ const Navbar = () => {
           />
         </Link>
         <div className="">
-          <ul className=" hidden md:flex ">
+          <ul style={{ color: `${linkColor}` }} className=" hidden md:flex ">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b border-[#c2649a]">
                 Home

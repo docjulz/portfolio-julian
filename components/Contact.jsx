@@ -10,10 +10,27 @@ import {
 import { FaFigma, FaChevronCircleUp } from "react-icons/fa";
 import { RiKakaoTalkLine } from "react-icons/ri";
 
+function validateFormWithJS() {
+  const name = document.querySelector("#name").value;
+  const rollNumber = document.querySelector("#phone").value;
+
+  if (!name) {
+    alert("Please enter your name.");
+    return false;
+  }
+
+  if (phone.length < 10) {
+    alert(
+      "Phone Number should be at least 10 digits long. No special characters"
+    );
+    return false;
+  }
+}
+
 const Contact = () => {
   return (
     <div id="contact" className=" w-full lg:h-screen ">
-      <div className=" max-w-7xl m-auto px-2 py-16 w-full">
+      <div className=" max-w-7xl m-auto px-2 py-16 md:pt-28 w-full">
         <p className="uppercase text-xl tracking-widest text-[#2D92FA]">
           Contact
         </p>
@@ -83,20 +100,31 @@ const Contact = () => {
 
           <div className=" col-span-3 w-full h-auto shadow-md shadow-gray-400 rounded-xl lg:p-4">
             <div className=" p-4">
-              <form>
+              <form onsubmit="validateFormWithJS()">
                 <div className=" grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className=" flex flex-col">
-                    <label className=" uppercase text-sm py-2">Name</label>
+                    <label for="name" className=" uppercase text-sm py-2">
+                      Name
+                    </label>
                     <input
                       className=" border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="name"
+                      id="name"
+                      minLength="3"
                     />
                   </div>
+
                   <div className=" flex flex-col">
-                    <label className=" uppercase text-sm py-2">Phone</label>
+                    <label for="phone" className=" uppercase text-sm py-2">
+                      Phone
+                    </label>
                     <input
                       className=" border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      phone="phone"
+                      id="phone"
+                      minLength="10"
                     />
                   </div>
                 </div>
@@ -121,7 +149,10 @@ const Contact = () => {
                     rows="10"
                   ></textarea>
                 </div>
-                <button className="flex items-center justify-center mt-4 h-auto w-full hover:scale-105 hover:text-white ">
+                <button
+                  // type="submit"
+                  className="flex items-center justify-center mt-4 h-auto w-full hover:scale-105 hover:text-white "
+                >
                   Send Message
                 </button>
               </form>
