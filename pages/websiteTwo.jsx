@@ -35,7 +35,9 @@ const websiteTwo = () => {
             HTML and CSS. I included a responsive navbar and a hero section that
             can be flexible to include text, buttons, etc.
           </p>
-          <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
+          <Link href="https://law-test-docjulz.vercel.app/" target="_blank">
+            <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
           <Link href="https://github.com/docjulz/LAW-TEST.git" target="_blank">
             <button className=" px-8 py-2 mt-4">Code</button>
           </Link>

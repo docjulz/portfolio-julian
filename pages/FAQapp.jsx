@@ -32,7 +32,9 @@ const FAQapp = () => {
             This application could be implemented in a Review Section on a
             website. It maps over JSON and uses the data to populate the card.
           </p>
-          <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
+          <Link href="https://questions-swy5.vercel.app/" target="_blank">
+            <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
           <Link href="https://github.com/docjulz/questions.git" target="_blank">
             <button className=" px-8 py-2 mt-4">Code</button>
           </Link>

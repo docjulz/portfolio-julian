@@ -36,7 +36,9 @@ const menu = () => {
             to a card holding a menu item. The top menu type buttons filter menu
             items based on the type of meal.
           </p>
-          <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
+          <Link href="https://menu-project-ruby.vercel.app/" target="_blank">
+            <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
           <Link
             href="https://github.com/docjulz/menu-project.git"
             target="_blank"
