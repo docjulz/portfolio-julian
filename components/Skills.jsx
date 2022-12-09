@@ -28,7 +28,7 @@ const Skills = () => {
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white ">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center ">
               <div className=" m-auto sm:h-16 sm:w-16">
-                <Image src={html} alt="/" />
+                <Image src={html} alt="html Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>HTML</h3>
@@ -39,7 +39,7 @@ const Skills = () => {
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
               <div className=" m-auto sm:h-16 sm:w-16">
-                <Image src={css} alt="/" />
+                <Image src={css} alt="css Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>CSS</h3>
@@ -50,7 +50,7 @@ const Skills = () => {
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
               <div className=" m-auto sm:h-16 sm:w-16">
-                <Image src={javascript} alt="/" />
+                <Image src={javascript} alt="javaScrip Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>JavaScript</h3>
@@ -60,8 +60,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white ">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center ">
-              <div className=" m-auto">
-                <Image src={reactImg} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={reactImg} alt="React JS Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>React</h3>
@@ -71,8 +71,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={nextjs} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={nextjs} alt="Next JS Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>NextJS</h3>
@@ -82,8 +82,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={node} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={node} alt="Node JS Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>NodeJS</h3>
@@ -93,8 +93,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={tailwind} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={tailwind} alt="Tailwind Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>Tailwind</h3>
@@ -104,8 +104,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={github} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={github} alt="GitHub Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>GitHub</h3>
@@ -115,8 +115,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={wordpress} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={wordpress} alt="Wordpress Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>WordPress</h3>
@@ -126,8 +126,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={shopify} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={shopify} alt="Shopify Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>Shopify</h3>
@@ -137,8 +137,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={adobecreativecloud} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={adobecreativecloud} alt="Adobe Creative Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3 className=" text-center">Adobe Creative Suite</h3>
@@ -148,8 +148,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={figma} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={figma} alt="Figma Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>Figma</h3>
@@ -159,8 +159,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={python} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={python} alt="Python Logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>Python</h3>
@@ -170,8 +170,8 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
-                <Image src={cpp} alt="/" />
+              <div className=" m-auto sm:h-16 sm:w-16">
+                <Image src={cpp} alt="C plus plus logo" />
               </div>
               <div className=" flex flex-col items-center justify-center">
                 <h3>C++</h3>
