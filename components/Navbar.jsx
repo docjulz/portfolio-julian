@@ -12,6 +12,7 @@ import {
 import { FaFigma } from "react-icons/fa";
 import { RiKakaoTalkLine } from "react-icons/ri";
 import { useRouter } from "next/router";
+import jmLogo from "../public/assets/jm-logo-initial.png";
 
 const Navbar = () => {
   //State
@@ -68,12 +69,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         {/* Lazy load image */}
         <Link href="/">
-          <Image
-            src="/../public/assets/jm-logo-initial.png"
-            alt="Julian Miller Logo"
-            width="90"
-            height="40"
-          />
+          <Image src={jmLogo} alt="Julian Miller Logo" />
         </Link>
         <div className="">
           <ul style={{ color: `${linkColor}` }} className=" hidden md:flex ">
