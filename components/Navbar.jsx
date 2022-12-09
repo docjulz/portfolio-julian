@@ -69,7 +69,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         {/* Lazy load image */}
         <Link href="/">
-          <Image src={jmLogo} alt="Julian Miller Logo" />
+          <Image src={jmLogo} alt="Julian Miller Logo" className=" w-20 h-20" />
         </Link>
         <div className="">
           <ul style={{ color: `${linkColor}` }} className=" hidden md:flex ">
@@ -127,12 +127,7 @@ const Navbar = () => {
             <div className=" flex w-full items-center justify-between">
               {/* Logo */}
               <Link href="/">
-                <Image
-                  src="/../public/assets/jm-logo-initial.png"
-                  alt="/"
-                  width="60"
-                  height="20"
-                />
+                <Image src={jmLogo} alt="/" className=" w-20 h-20" />
               </Link>
               <div
                 onClick={handleNav}

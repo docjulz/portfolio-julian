@@ -27,7 +27,7 @@ const Skills = () => {
           {/* UPDATE NEEDED: Create Props and pass down instead of repeat code */}
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white ">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center ">
-              <div className=" m-auto">
+              <div className=" m-auto sm:h-16 sm:w-16">
                 <Image src={html} alt="/" />
               </div>
               <div className=" flex flex-col items-center justify-center">
@@ -38,7 +38,7 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
+              <div className=" m-auto sm:h-16 sm:w-16">
                 <Image src={css} alt="/" />
               </div>
               <div className=" flex flex-col items-center justify-center">
@@ -49,7 +49,7 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center">
-              <div className=" m-auto">
+              <div className=" m-auto sm:h-16 sm:w-16">
                 <Image src={javascript} alt="/" />
               </div>
               <div className=" flex flex-col items-center justify-center">
@@ -60,7 +60,7 @@ const Skills = () => {
 
           <div className=" p-6 shadow-md rounded-xl hover:scale-105 ease-in-out duration-300 bg-white ">
             <div className=" grid md:grid-cols-2 gap-4 justify-center items-center ">
-              <div>
+              <div className=" m-auto">
                 <Image src={reactImg} alt="/" />
               </div>
               <div className=" flex flex-col items-center justify-center">

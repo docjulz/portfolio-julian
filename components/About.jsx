@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import julian from "../public/assets/Julian-selfie.jpg";
 
 const About = () => {
   return (
@@ -37,13 +38,7 @@ const About = () => {
         </div>
         {/* Right Side */}
         <div className="  w-full h-auto m-auto md:shadow-sm  md:shadow-gray-400 rounded-xl flex items-center justify-center p-2 md:hover:scale-105 ease-in-out duration-300 md:hover:shadow-lg hover:shadow-gray-400">
-          <Image
-            src="/../public/assets/Julian-selfie.jpg"
-            alt="Profile Picture"
-            height="400"
-            width="400"
-            className=" rounded-xl "
-          />
+          <Image src={julian} alt="Profile Picture" className=" rounded-xl " />
         </div>
       </div>
     </div>
