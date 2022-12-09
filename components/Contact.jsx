@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaFigma, FaChevronCircleUp } from "react-icons/fa";
 import { RiKakaoTalkLine } from "react-icons/ri";
+import contactImg from "../public/assets/web-developer-img.jpg";
 
 function validateFormWithJS() {
   const name = document.querySelector("#name").value;
@@ -38,14 +39,14 @@ const Contact = () => {
         <div className=" grid lg:grid-cols-5 gap-8">
           {/* Left column */}
           <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 rounded-xl p-4">
-            <div className="lg:p-4 h-full">
-              <div>
+            <div className="lg:p-4 h-full ">
+              <div className="">
                 <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="/../public/assets/web-developer-img.jpg"
+                  className="rounded-xl hover:scale-105 ease-in duration-300 "
+                  // layout="fill"
+                  // objectFit="cover"
+                  src={contactImg}
                   alt="/"
-                  width="1200"
-                  height="1000"
                 />
               </div>
               <div>
