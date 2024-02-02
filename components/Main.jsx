@@ -9,11 +9,17 @@ import {
 } from "react-icons/ai";
 import { FaFigma } from "react-icons/fa";
 import { RiKakaoTalkLine } from "react-icons/ri";
+import Image from "next/image";
+import heroImg from "../public/assets/joel-filipe-Wc8k-KryEPM-unsplash.jpg";
 
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
+      {/* <Image src={heroImg} /> */}
       <div className=" max-w-7xl w-full h-full mx-auto p-2 flex justify-center items-center">
+        {/* <div className="object-cover ">
+          <Image src={heroImg} alt="Geometric Shapes" />
+        </div> */}
         <div>
           <p className=" uppercase text-sm tracking-widest text-gray-600 pb-4">
             Creative solutions through Web Development and Design
@@ -32,7 +38,9 @@ const Main = () => {
               /* I also like cats */.
             </span>
           </p>
+          {/* Project Icons */}
           <div className=" flex items-center justify-between max-w-sm m-auto py-4">
+            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/julianemiller/"
               target="_blank"
@@ -42,35 +50,19 @@ const Main = () => {
               </div>
             </a>
 
+            {/* Github */}
             <a href="https://github.com/docjulz" target="_blank">
               <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                 <AiOutlineGithub size="1.5rem" />
               </div>
             </a>
 
-            <a href="https://codepen.io/jmillerlbc" target="_blank">
-              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
-                <AiOutlineCodepen size="1.5rem" />
-              </div>
-            </a>
-
-            <a href="https://www.figma.com/@julianmiller" target="_blank">
-              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
-                <FaFigma size="1.5rem" />
-              </div>
-            </a>
-
+            {/* eMail */}
             <a href="mailto:julian.miller949@gmail.com" target="_blank">
               <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                 <AiOutlineMail size="1.5rem" />
               </div>
             </a>
-
-            {/* <a href="tel:9495330622" target="_blank">
-              <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a]">
-                <RiKakaoTalkLine size="1.5rem" />
-              </div>
-            </a> */}
           </div>
         </div>
       </div>
