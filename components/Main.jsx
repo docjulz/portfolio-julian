@@ -23,11 +23,11 @@ const Main = () => {
               Julian Miller
             </h1>
           </div>
-          <h1>A Developer and Web Designer</h1>
+          <h1>Web and Application Developer</h1>
           <p className=" py-4 text-gray-600 max-w-[70%] m-auto">
             I am a Web Developer, Digital Engagement Manager, and Content
-            Designer with experience developing websites and web applications
-            using multiple frameworks and programming languages.
+            Designer with experience developing websites and applications using
+            multiple frameworks and programming languages.
             <span className="text-[#c2649a] text-[0.6rem] px-1">
               /* I also like cats */.
             </span>

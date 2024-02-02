@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className=" py-4">Who Am I?</h2>
           <p className=" py-2 text-gray-600 lg:pr-10 text-justify">
-            I have three years experience with web development and design, five
+            I have 4 years experience with web development and design, sevem
             years experience in higher education administration, and a
             background in museums focused on digital engagement.
           </p>
@@ -28,6 +28,14 @@ const About = () => {
             MissionDriven365 where I consulted with organizations to develop
             digital engagement plans and South County Creative where I focus on
             help small business reach clients through web and graphic design.
+          </p>
+          <p>
+            Currently I am the Web and Application developer for Associated
+            Students, Inc. at Cal State Long Beach where I lead a team of 4 web
+            developers maintaining ASI's 3 websites, developing web
+            applications, and work orders from the whole organization. During
+            this time I began moving all 3 websites from Joomla to NextJS and
+            other React based libraries and frameworks.
           </p>
           <p className=" pt-2 text-gray-600 lg:pr-10 text-justify">
             I am proficient in HTML, CSS, JavaScript, ReactJS, NodeJS, NextJS,
