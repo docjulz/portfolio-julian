@@ -35,14 +35,15 @@ const Contact = () => {
         <p className="uppercase text-xl tracking-widest text-[#2D92FA]">
           Contact
         </p>
-        <h2 className=" py-4">Lets Chat</h2>
+        <h2 className=" py-4">Lets Connect</h2>
         <div className=" grid lg:grid-cols-5 gap-8">
-          {/* Left column */}
+          {/*  */}
+          {/* LEFT COLUMN */}
           <div className=" col-span-3 lg:col-span-2 w-full h-full shadow-md shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full ">
               <div className="">
                 <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300 "
+                  className="rounded-xl  "
                   // layout="fill"
                   // objectFit="cover"
                   src={contactImg}
@@ -51,15 +52,17 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className=" pb-2 pt-4 md:pt-8 lg:pt-4">Julian Miller</h2>
-                <p className="">Front-End Developer</p>
+                <p className="font-semibold">Front-End Developer</p>
                 <p className=" py-4">
-                  I am a freelancer and also open for full-time employment. Look
-                  forward to hearing from you!
+                  I am a web developer working at Associated Students, Inc. at
+                  Cal State Long Beach and manage a team of 4 software
+                  developers. Drop me a message if you are interested in
+                  partnering on a new project or have any questions.
                 </p>
               </div>
               <div>
                 <p className=" uppercase pt-8 text-center">Lets Chat!</p>
-                <div className=" flex items-center justify-between max-w-sm m-auto py-4">
+                <div className=" flex items-center justify-center gap-4 max-w-sm m-auto py-4">
                   <a
                     href="https://www.linkedin.com/in/julianemiller/"
                     target="_blank"
@@ -75,17 +78,17 @@ const Contact = () => {
                     </div>
                   </a>
 
-                  <a href="https://codepen.io/jmillerlbc" target="_blank">
+                  {/* <a href="https://codepen.io/jmillerlbc" target="_blank">
                     <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                       <AiOutlineCodepen size="1.5rem" />
                     </div>
-                  </a>
+                  </a> */}
 
-                  <a href="https://www.figma.com/@julianmiller" target="_blank">
+                  {/* <a href="https://www.figma.com/@julianmiller" target="_blank">
                     <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
                       <FaFigma size="1.5rem" />
                     </div>
-                  </a>
+                  </a> */}
 
                   <a href="mailto:julian.miller949@gmail.com" target="_blank">
                     <div className="rounded-2xl shadow-sm shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300 hover:text-[#c2649a] hover:bg-white">
@@ -97,11 +100,11 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Right column */}
+          {/* RIGHT COLUMN */}
 
           <div className=" col-span-3 w-full h-auto shadow-md shadow-gray-400 rounded-xl lg:p-4">
             <div className=" p-4">
-              <form onsubmit="validateFormWithJS()">
+              <form onSubmit="validateFormWithJS()">
                 <div className=" grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className=" flex flex-col">
                     <label for="name" className=" uppercase text-sm py-2">
@@ -152,10 +155,11 @@ const Contact = () => {
                 </div>
                 <button
                   // type="submit"
-                  className="flex items-center justify-center mt-4 h-auto w-full hover:scale-105 hover:text-white "
+                  className="flex  mt-4 h-auto  m-auto px-8 hover:drop-shadow-xl hover:text-white "
                 >
                   Send Message
                 </button>
+                {/* <input type="reset" value="Reset" name="Reset"></input> */}
               </form>
             </div>
           </div>
